@@ -19,7 +19,8 @@ body {
   top: 3.5rem;
 }
 
-Sets the background color of Cards displayed over the globe .globe-card {
+/* Sets the background color of Cards displayed over the globe  */
+.globe-card {
   background: rgba(255, 255, 255, 0.7);
 }
 
@@ -102,7 +103,7 @@ Sets the background color of Cards displayed over the globe .globe-card {
   height: 100%;
   /* Full height */
   overflow: auto;
-  
+
   border-radius: 5px;
 
   filter: drop-shadow(0 0 0.75rem #1D2951);
@@ -116,11 +117,11 @@ Sets the background color of Cards displayed over the globe .globe-card {
   padding: 0px;
   border: none;
   width: 33vw;
-  height: 30vh;
+  height: 50vh;
   top: 0;
   right: 0;
-  left: 33vw;  
-  
+  left: 33vw;
+
 }
 
 .titleBar {
@@ -132,10 +133,10 @@ Sets the background color of Cards displayed over the globe .globe-card {
   margin: auto;
   padding: 0px;
   width: 100%;
-  padding-top: 10px;  
+  padding-top: 10px;
   background-color: #1D2951;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
 h3.modalTitle {
@@ -149,6 +150,7 @@ h3.modalTitle {
   padding: 10px;
   overflow-y: scroll;
   overflow-x: hidden;
+  height: 100%;
 }
 
 /* The Close Button */
@@ -164,7 +166,7 @@ h3.modalTitle {
 
 .closeModal:hover,
 .closeModal:focus {
-  color:rgb(196, 196, 196);
+  color: rgb(196, 196, 196);
   text-decoration: none;
   cursor: pointer !important;
 }
